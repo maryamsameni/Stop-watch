@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="master.css">
+
+<body>
+    <section>
+        <video muted loop autoplay>
+            <source src="video/video.mp4">
+        </video>
+        <div class="circle">
+            <h3>stop watch</h3>
+
+            <div class="num">
+                <span class="hour">00</span> :
+                <span class="min">00</span> :
+                <span class="sec">00</span> :
+                <span class="miliSecond">00</span>
+            </div>
+
+            <button class="start" data-status="off">Start</button>
+            <button class="stop">stop</button>
+            <button class="reset">reset</button>
+            <button class="lap">lap</button>
+        </div>
+
+        <span class="clear"></span>
+
+        <ul>
+            <p></p>
+        </ul>
+    </section>
+</body>
+
+<script src="script.js"></script>
+
+</html>
